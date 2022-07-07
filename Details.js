@@ -4,40 +4,13 @@ export const store = createContext()
 const Details = (props) => {
     const [students, setStudents] = useState([
         {
-            "Name":"Atul",
-            "Age" : "25",
-            "Course" : "FullStack",
-            "Batch" : 'feb',
+            "Name":"Swapnil",
+            "Age" : "24",
+            "Course" : "Software Developer",
+            "Batch" : 'March',
             "id" : "1"
         },
-        {
-            "Name":"Atul",
-            "Age" : "25",
-            "Course" : "FullStack",
-            "Batch" : 'feb',
-            "id" : "2"
-        },
-        {
-            "Name":"Atul",
-            "Age" : "25",
-            "Course" : "FullStack",
-            "Batch" : 'feb',
-            "id" : "3"
-        },
-        {
-            "Name":"Atul",
-            "Age" : "25",
-            "Course" : "FullStack",
-            "Batch" : 'feb',
-            "id" : "4"
-        },
-        {
-            "Name":"Atul",
-            "Age" : "25",
-            "Course" : "FullStack",
-            "Batch" : 'feb',
-            "id" : "5"
-        },
+        
     ])
   return (
     <div>
